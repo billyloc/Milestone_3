@@ -1,0 +1,236 @@
+/****************************************
+  Inherited Syles
+*****************************************/
+html {
+    box-sizing: border-box;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+    font: inherit;
+}
+/****************************************
+  Defaults
+*****************************************/
+main {
+	background-color: #11aaba;
+}
+
+
+/****************************************
+  Helpers
+*****************************************/
+
+
+/****************************************
+  Layout
+*****************************************/
+nav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+.topfooter {
+	background-color: #008000;
+	color: white;
+	text-align: center;
+	padding:16px;
+}
+
+/****************************************
+  Components
+*****************************************/
+.container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #87d4dc;
+}
+span {
+	background-color: #008000;
+	text-align: center;
+	margin: 19px;
+}
+/*span {
+	margin: 19px;
+}*/
+footer {
+	background-color: #ff00ff;
+	position: absolute;
+	bottom: 29px;
+	right: 0;
+	left: 0;
+	text-align: center;
+	height: 105px;
+	color: white;
+	font-weight: 300;
+}
+header {
+	height: 142px;
+	position: relative;
+	background-color: #ffa500;
+	position: relative;	
+}
+.hero {
+	background-color: #87d4dc;
+	height: 289px;
+	position: relative;
+}
+.bottomcontainer {
+	background-color: #ffc0cb;
+	margin: 0 auto;
+	width: 960px;
+}
+.bottomheader {
+	background-color: #008000;
+	margin-bottom: 2px;
+	display: flex;
+}
+.dogs_column {
+	background-color: #00ff00;
+	width: 400px;
+}
+.dogs_row {
+	background-color: #0000ff;
+	vertical-align: top;
+	width: 560px;
+}
+.bhead {
+	background-color: #00ff00;
+	margin-left: 10px;
+	margin-right: 5px;
+	flex: 1;
+	transform: translateY(-20px);
+	position: relative;
+	width: 300px;
+}
+button {
+	font-size: 13px;
+	color: white;
+}
+aside {
+	margin: 0 auto;
+	background-color: #800080;
+}
+a {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color: red;
+	color: white;
+}
+.input1 {
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+.search {
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	background-color: blue;
+	font-size: 14px;
+}
+.head_button {
+	position: absolute;
+	top: 2px;
+	right: -50px;
+	box-shadow: 5px blue;
+}
+.column {
+	display: inline-block;
+	display: flex;
+	margin-top: -5px;
+	overflow: hidden;
+}	
+img {
+	height: 80px;
+	width: 80px;
+}
+.dogs img {
+	height: 160px;
+	width: 160px;
+	display: inline;
+	margin-bottom: -6px;
+}
+.comment {
+	display: flex;
+	background-color: red;
+	width: 382px;
+	height: 79px;
+	margin: 10px;
+	overflow: hidden;
+}
+.comment .image {
+	width: 60px;
+	height: 60px;
+	background-color: #aaa;
+}
+.content {
+	background-color: yellow;
+	font-size: 15px;
+	text-align: left;
+	width: 300px;
+	height: 45px;
+	margin-left: 20px;
+}
+.content2 {
+	background-color: yellow;
+	font-size: 15px;
+	text-align: left;
+	width: 300px;
+	height: 62px;
+	margin-left: 20px;
+}
+.dogs {
+	display: inline-block;
+	width: 160px;
+	background-color: yellow;
+	vertical-align: top;
+	margin-left: 10px;
+    margin-top: 10px;
+}
+button.help {
+	font-size: 14px;
+	text-align: center;
+	color: black;
+}
+.name {
+	border-bottom: 1px solid black;
+	text-align: left;
+	font-size: 15px;
+}
+.footer_header {
+	font-size: xx-large;
+}
+.footer_message {
+	padding-top: 25px;
+}
+.bottom_hdr_txt {
+	width: 244px;
+	margin-left: 30px;
+	font-size: 14px;
+	margin-bottom: 18px;
+}
+.dog_txt {
+	text-align: left;
+	width: 160px;
+	font-size: 16px;
+	padding-right: 2px;
+}
+.column_txt {
+	font-size: 17px;
+}
+h5 {
+	margin-bottom: 12px;
+	margin-top: 14px
+}
+.center_dogs {
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+}
